@@ -1,0 +1,25 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/story/story",
+    "pages/user/user",
+    "pages/tabbar/tabbar",
+    "pages/user/integral/integral",
+    "pages/user/love_welfare/love_welfare",
+    "pages/user/integral/details/details",
+    "pages/user/mall/mall",
+    "pages/user/revise_password/revise_password",
+    "pages/user/download/download",
+    "pages/user/love_welfare/thelist/thelist",
+    "pages/user/love_welfare/thelist/donation/donation"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "permission": {},
+  "usingComponents": {}
+}

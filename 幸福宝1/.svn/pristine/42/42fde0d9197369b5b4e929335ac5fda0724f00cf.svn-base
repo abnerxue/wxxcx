@@ -1,0 +1,33 @@
+
+.title{
+	color: #333333;
+	font-size: 28rpx;
+	margin: 20rpx 30rpx;
+}
+.borders{
+	width: 100%;
+	height: 1px;
+	background: #DEDEDE;
+}
+.inputs{
+	background: white;
+	height: 100rpx;
+	padding: 0 30rpx;
+	box-sizing: border-box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	font-size: 28rpx;
+	color: #666666;
+}
+.jifeng{
+	color: #D2D2D2;
+}
+.zhanghuo{
+	color: #161616;
+}
+
+

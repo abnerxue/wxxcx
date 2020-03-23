@@ -1,0 +1,96 @@
+<template>
+	<view class="backgrounds">
+		<navigator class="back_image" open-type="navigate" url="thelist/thelist">
+			<text class="title">聚焦疫情</text>
+			<text class="title">捐献爱心</text>
+		</navigator>
+		<image src="../../../static/goye.png" class="backgroundimage"></image>
+		<view class="content_list">
+			<view class="content">
+				<image class="content_image" src="../../../static/goye1.png"></image>
+				<view class="content_font">关爱海洋生物</view>
+			</view>
+			<view class="content">
+				<image class="content_image" src="../../../static/goye1.png"></image>
+				<view class="content_font">关爱海洋生物</view>
+			</view>
+			<view class="content">
+				<image class="content_image" src="../../../static/goye1.png"></image>
+				<view class="content_font">关爱海洋生物</view>
+			</view>
+			<view class="content">
+				<image class="content_image" src="../../../static/goye1.png"></image>
+				<view class="content_font">关爱海洋生物</view>
+			</view>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style>
+.back_image{
+	width: 100%;
+	height: 421.88rpx;
+	display: flex;
+	align-items: center;
+	color: white;
+	font-size: 60rpx;
+	z-index:50;
+	position: relative;
+	justify-content: center;
+}
+.backgroundimage{
+	position: absolute;
+	top:0;
+	width: 100%;
+	height: 421.88rpx;
+	
+}
+.title{
+	margin: 0 30rpx;
+}
+.content_list{
+	width: 100%;
+	padding: 20rpx 32rpx 0;
+	display: flex;
+	box-sizing: border-box;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.content{
+	width: 327rpx;
+	height: 288rpx;
+	background: white;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20rpx;
+	border-radius: 10rpx;
+	box-shadow: 0 4rpx 16rpx #EDEBEB;
+}
+.content_image{
+	width: 100%;
+	height: 216rpx;
+}
+.content_font{
+	width: 100%;
+	height: 72rpx;
+	padding-left: 20rpx;
+	font-size: 28rpx;
+	color: #333333;
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+}
+</style>

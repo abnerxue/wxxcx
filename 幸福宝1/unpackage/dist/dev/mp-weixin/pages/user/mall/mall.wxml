@@ -1,0 +1,1 @@
+<view class="backgrounds"><view class="title">转入杏福宝</view><view class="inputs"><text>转入积分：</text><input class="jifeng" type="number" placeholder="{{'可转入积分'+score}}"/></view><view class="borders"></view><view class="inputs"><text>转入账户：</text><input class="zhanghuo" type="number" value="{{name}}"/></view><button class="btn">转入</button></view>

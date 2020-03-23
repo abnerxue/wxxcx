@@ -1,0 +1,140 @@
+
+.bottomtabs{
+	width: 100%;
+	height: 124rpx;
+	background: #FFFFFF;
+	position: fixed;
+	font-size: 26rpx;
+	bottom: 0;
+	z-index:400 ;
+}
+.bottomtab{
+	margin-top: 10rpx;
+	margin-left: 105rpx;
+	width: 540rpx;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;	
+	display: -webkit-box;	
+	display: -webkit-flex;	
+	display: flex;
+}
+.bottabbar{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	/* width: 100rpx; */
+}
+.ims {
+	width: 40rpx;
+	height: 40rpx;
+}
+/* .bottomtabs{
+	position: relative;
+	width: 100%;
+	height: 100rpx;
+}
+.bottomtab {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 100rpx;
+	display: flex;
+	justify-content: space-around;
+	background: white;
+	z-index: 55;
+}
+
+.bottabbar {
+	height: 100%;
+	width: 180rpx;
+	font-size: 24rpx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	padding: 14rpx 0;
+	box-sizing: border-box;
+}
+
+.ims {
+	width: 40rpx;
+	height: 40rpx;
+}
+
+.actives {
+	color: #74181B;
+} */
+/* .radiu{
+	width: 108rpx;
+	height: 108rpx;
+	border-radius: 108rpx;
+	background: white;
+	position: absolute;
+	top: -20rpx;
+} */
+
+
+.back{
+	background: #FAFAFA;
+	width: 100%;
+	padding:0 30rpx 30rpx;
+	box-sizing: border-box;
+}
+.title{
+	color: #333333;
+	font-size: 30rpx;
+	text-align: center;
+	margin: 30rpx 0;
+}
+.content{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+.image{
+	width: 100%;
+	height: 385.88rpx;
+}
+.images{
+	height: 500px;
+	margin: 0 auto;
+}
+.imagess{
+	margin: 0 auto;
+}
+.imagesss{
+	width: 100%;
+	margin: 0 auto;
+}
+.font{
+	color: #333333;
+	font-size: 28rpx;
+	margin-top: 26rpx;
+	text-indent:25px;
+}
+.fonts{
+	color: #333333;
+	font-size: 28rpx;
+	text-indent:25px;
+}
+.images-list{
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+

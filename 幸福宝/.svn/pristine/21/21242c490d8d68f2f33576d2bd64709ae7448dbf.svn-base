@@ -1,0 +1,79 @@
+<template>
+	<view class="backgrounds">
+		<view class="inputs">
+			<view class="input">
+				<text>原密码：</text>
+				<input :type="types" class="inpus">
+			</view>
+			<image class="icon" src="../../../static/examine.png" v-show="examines==false" @click="exmain(1)"></image>
+			<image class="icon" src="../../../static/examine1.png" v-show="examines==true" @click="exmain(1)"></image>
+		</view>
+		<view class="inputs">
+			<view class="input">
+				<text>新密码：</text>
+				<input :type="type" class="inpus">
+			</view>
+			<image class="icon" src="../../../static/examine.png" v-show="examine==false" @click="exmain(2)"></image>
+			<image class="icon" src="../../../static/examine1.png" v-show="examine==true" @click="exmain(2)"></image>
+		</view>
+		<button class="btn">确定</button>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				examine:false,
+				examines:false,
+				types:'password',
+				type:'password'
+			}
+		},
+		methods: {
+			exmain(id){
+				if(id==1){
+					this.examines =!this.examines;
+					if(this.types =="text"){
+						this.types ="password";
+					}else{
+						this.types ="text";
+					}
+				}else{
+					this.examine =!this.examine;
+					if(this.type =="text"){
+						this.type ="password";
+					}else{
+						this.type ="text";
+					}
+				}
+			}
+		}
+	}
+</script>
+
+<style>
+.inputs{
+	background: white;
+	height: 100rpx;
+	padding: 0 30rpx;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 28rpx;
+	color: #666666;
+	border-top: 1rpx solid #DEDEDE;
+}
+.inpus{
+	color: #333333;
+}
+.input{
+	display: flex;
+	align-items: center;
+}
+.icon{
+	width: 32rpx;
+	height: 24rpx;
+}
+</style>

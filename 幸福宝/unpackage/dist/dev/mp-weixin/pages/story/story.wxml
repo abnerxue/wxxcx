@@ -1,0 +1,1 @@
+<view class="backgrounds"><view class="back"><view class="title">{{content.title}}</view><view class="content"><rich-text nodes="{{content.content}}"></rich-text></view></view><tabbar vue-id="1" tags="1" bind:__l="__l"></tabbar></view>

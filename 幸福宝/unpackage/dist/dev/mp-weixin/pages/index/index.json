@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "点点乐",
+  "usingComponents": {
+    "tabbar": "/pages/tabbar/tabbar"
+  }
+}

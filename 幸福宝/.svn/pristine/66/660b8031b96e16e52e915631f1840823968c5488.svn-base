@@ -1,0 +1,1 @@
+<view class="content"><tabbar vue-id="1" tags="2" bind:__l="__l"></tabbar></view>
